@@ -1,0 +1,13 @@
+{
+  "unitTests": 38,
+  "passed": true,
+  "compilerFlags": [
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror"
+  ],
+  "scope": "native PCM16 WAV parser and structural MP4 walker; not a codec test"
+}

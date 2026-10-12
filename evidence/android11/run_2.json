@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "sdk": 30,
+  "fingerprint": "Android/sdk_phone_x86_64/generic_x86_64:11/RSR1.210722.013.A2/10067904:userdebug/test-keys",
+  "status": "PASS",
+  "cases": [
+    {
+      "encoder": "c2.android.aac.encoder",
+      "encodedSamples": 94,
+      "lastPtsUs": 1983999,
+      "outputFormat": "{max-bitrate=128000, aac-sbr-mode=3, sample-rate=48000, level=0, mime=audio/mp4a-latm, profile=2, channel-count=1, bitrate=128000, csd-0=java.nio.HeapByteBuffer[pos=0 lim=2 cap=2]}",
+      "encodeEos": true,
+      "decode": {
+        "decoder": "c2.android.aac.decoder",
+        "frames": 96256,
+        "rms": 8381.856046629131,
+        "decodeEos": true
+      },
+      "rate": 48000,
+      "channels": 1,
+      "silent": false,
+      "inputFrames": 96000,
+      "paddingFrames": 256,
+      "fileBytes": 35317,
+      "status": "PASS",
+      "name": "48000_1_tone"
+    },
+    {
+      "encoder": "c2.android.aac.encoder",
+      "encodedSamples": 94,
+      "lastPtsUs": 1983999,
+      "outputFormat": "{max-bitrate=128000, aac-sbr-mode=3, sample-rate=48000, level=0, mime=audio/mp4a-latm, profile=2, channel-count=1, bitrate=128000, csd-0=java.nio.HeapByteBuffer[pos=0 lim=2 cap=2]}",
+      "encodeEos": true,
+      "decode": {
+        "decoder": "c2.android.aac.decoder",
+        "frames": 96256,
+        "rms": 0,
+        "decodeEos": true
+      },
+      "rate": 48000,
+      "channels": 1,
+      "silent": true,
+      "inputFrames": 96000,
+      "paddingFrames": 256,
+      "fileBytes": 35317,
+      "status": "PASS",
+      "name": "48000_1_silence"
+    },
+    {
+      "encoder": "c2.android.aac.encoder",
+      "encodedSamples": 87,
+      "lastPtsUs": 1996915,
+      "outputFormat": "{max-bitrate=128000, aac-sbr-mode=3, sample-rate=44100, level=0, mime=audio/mp4a-latm, profile=2, channel-count=2, bitrate=128000, csd-0=java.nio.HeapByteBuffer[pos=0 lim=2 cap=2]}",
+      "encodeEos": true,
+      "decode": {
+        "decoder": "c2.android.aac.decoder",
+        "frames": 89088,
+        "rms": 8374.549162837815,
+        "decodeEos": true
+      },
+      "rate": 44100,
+      "channels": 2,
+      "silent": false,
+      "inputFrames": 88200,
+      "paddingFrames": 888,
+      "fileBytes": 35555,
+      "status": "PASS",
+      "name": "44100_2_tone"
+    },
+    {
+      "encoder": "c2.android.aac.encoder",
+      "encodedSamples": 87,
+      "lastPtsUs": 1996915,
+      "outputFormat": "{max-bitrate=128000, aac-sbr-mode=3, sample-rate=44100, level=0, mime=audio/mp4a-latm, profile=2, channel-count=2, bitrate=128000, csd-0=java.nio.HeapByteBuffer[pos=0 lim=2 cap=2]}",
+      "encodeEos": true,
+      "decode": {
+        "decoder": "c2.android.aac.decoder",
+        "frames": 89088,
+        "rms": 0,
+        "decodeEos": true
+      },
+      "rate": 44100,
+      "channels": 2,
+      "silent": true,
+      "inputFrames": 88200,
+      "paddingFrames": 888,
+      "fileBytes": 35554,
+      "status": "PASS",
+      "name": "44100_2_silence"
+    },
+    {
+      "name": "truncated_wav",
+      "status": "PASS",
+      "rejected": true
+    },
+    {
+      "name": "truncated_mp4",
+      "status": "PASS",
+      "rejected": true
+    }
+  ]
+}

@@ -28,7 +28,7 @@ def main():
         env["PATH"] = str(Path(args.compiler).parent) + os.pathsep + env.get("PATH", "")
     result = subprocess.run([sys.executable, "-m", "unittest", "discover", "-s", "tests", "-v"], cwd=ROOT, env=env, capture_output=True, timeout=60)
     args.output.mkdir(parents=True, exist_ok=True)
-    log = (result.stdout + result.stderr).decode("utf-8")
+    log = (result.stdout + result.stderr).decode("utf-8").replace("\r\n", "\n")
     (args.output / "tests.log").write_text(log, encoding="utf-8")
     if result.returncode or "Ran 38 tests" not in log:
         raise RuntimeError(log)

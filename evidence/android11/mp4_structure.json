@@ -1,0 +1,566 @@
+{
+  "48000_1_tone.mp4": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "size": 24,
+      "children": []
+    },
+    {
+      "type": "moov",
+      "offset": 24,
+      "size": 1057,
+      "children": [
+        {
+          "type": "mvhd",
+          "offset": 32,
+          "size": 108,
+          "children": []
+        },
+        {
+          "type": "meta",
+          "offset": 140,
+          "size": 118,
+          "children": []
+        },
+        {
+          "type": "trak",
+          "offset": 258,
+          "size": 823,
+          "children": [
+            {
+              "type": "tkhd",
+              "offset": 266,
+              "size": 92,
+              "children": []
+            },
+            {
+              "type": "mdia",
+              "offset": 358,
+              "size": 723,
+              "children": [
+                {
+                  "type": "mdhd",
+                  "offset": 366,
+                  "size": 32,
+                  "children": []
+                },
+                {
+                  "type": "hdlr",
+                  "offset": 398,
+                  "size": 44,
+                  "children": []
+                },
+                {
+                  "type": "minf",
+                  "offset": 442,
+                  "size": 639,
+                  "children": [
+                    {
+                      "type": "smhd",
+                      "offset": 450,
+                      "size": 16,
+                      "children": []
+                    },
+                    {
+                      "type": "dinf",
+                      "offset": 466,
+                      "size": 36,
+                      "children": [
+                        {
+                          "type": "dref",
+                          "offset": 474,
+                          "size": 28,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "stbl",
+                      "offset": 502,
+                      "size": 579,
+                      "children": [
+                        {
+                          "type": "stsd",
+                          "offset": 510,
+                          "size": 91,
+                          "children": [
+                            {
+                              "type": "mp4a",
+                              "offset": 526,
+                              "size": 75,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "stts",
+                          "offset": 601,
+                          "size": 32,
+                          "children": []
+                        },
+                        {
+                          "type": "stsz",
+                          "offset": 633,
+                          "size": 396,
+                          "children": []
+                        },
+                        {
+                          "type": "stsc",
+                          "offset": 1029,
+                          "size": 28,
+                          "children": []
+                        },
+                        {
+                          "type": "co64",
+                          "offset": 1057,
+                          "size": 24,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "free",
+      "offset": 1081,
+      "size": 2135,
+      "children": []
+    },
+    {
+      "type": "mdat",
+      "offset": 3216,
+      "size": 32101,
+      "children": []
+    }
+  ],
+  "48000_1_silence.mp4": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "size": 24,
+      "children": []
+    },
+    {
+      "type": "moov",
+      "offset": 24,
+      "size": 1057,
+      "children": [
+        {
+          "type": "mvhd",
+          "offset": 32,
+          "size": 108,
+          "children": []
+        },
+        {
+          "type": "meta",
+          "offset": 140,
+          "size": 118,
+          "children": []
+        },
+        {
+          "type": "trak",
+          "offset": 258,
+          "size": 823,
+          "children": [
+            {
+              "type": "tkhd",
+              "offset": 266,
+              "size": 92,
+              "children": []
+            },
+            {
+              "type": "mdia",
+              "offset": 358,
+              "size": 723,
+              "children": [
+                {
+                  "type": "mdhd",
+                  "offset": 366,
+                  "size": 32,
+                  "children": []
+                },
+                {
+                  "type": "hdlr",
+                  "offset": 398,
+                  "size": 44,
+                  "children": []
+                },
+                {
+                  "type": "minf",
+                  "offset": 442,
+                  "size": 639,
+                  "children": [
+                    {
+                      "type": "smhd",
+                      "offset": 450,
+                      "size": 16,
+                      "children": []
+                    },
+                    {
+                      "type": "dinf",
+                      "offset": 466,
+                      "size": 36,
+                      "children": [
+                        {
+                          "type": "dref",
+                          "offset": 474,
+                          "size": 28,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "stbl",
+                      "offset": 502,
+                      "size": 579,
+                      "children": [
+                        {
+                          "type": "stsd",
+                          "offset": 510,
+                          "size": 91,
+                          "children": [
+                            {
+                              "type": "mp4a",
+                              "offset": 526,
+                              "size": 75,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "stts",
+                          "offset": 601,
+                          "size": 32,
+                          "children": []
+                        },
+                        {
+                          "type": "stsz",
+                          "offset": 633,
+                          "size": 396,
+                          "children": []
+                        },
+                        {
+                          "type": "stsc",
+                          "offset": 1029,
+                          "size": 28,
+                          "children": []
+                        },
+                        {
+                          "type": "co64",
+                          "offset": 1057,
+                          "size": 24,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "free",
+      "offset": 1081,
+      "size": 2135,
+      "children": []
+    },
+    {
+      "type": "mdat",
+      "offset": 3216,
+      "size": 32101,
+      "children": []
+    }
+  ],
+  "44100_2_tone.mp4": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "size": 24,
+      "children": []
+    },
+    {
+      "type": "moov",
+      "offset": 24,
+      "size": 1029,
+      "children": [
+        {
+          "type": "mvhd",
+          "offset": 32,
+          "size": 108,
+          "children": []
+        },
+        {
+          "type": "meta",
+          "offset": 140,
+          "size": 118,
+          "children": []
+        },
+        {
+          "type": "trak",
+          "offset": 258,
+          "size": 795,
+          "children": [
+            {
+              "type": "tkhd",
+              "offset": 266,
+              "size": 92,
+              "children": []
+            },
+            {
+              "type": "mdia",
+              "offset": 358,
+              "size": 695,
+              "children": [
+                {
+                  "type": "mdhd",
+                  "offset": 366,
+                  "size": 32,
+                  "children": []
+                },
+                {
+                  "type": "hdlr",
+                  "offset": 398,
+                  "size": 44,
+                  "children": []
+                },
+                {
+                  "type": "minf",
+                  "offset": 442,
+                  "size": 611,
+                  "children": [
+                    {
+                      "type": "smhd",
+                      "offset": 450,
+                      "size": 16,
+                      "children": []
+                    },
+                    {
+                      "type": "dinf",
+                      "offset": 466,
+                      "size": 36,
+                      "children": [
+                        {
+                          "type": "dref",
+                          "offset": 474,
+                          "size": 28,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "stbl",
+                      "offset": 502,
+                      "size": 551,
+                      "children": [
+                        {
+                          "type": "stsd",
+                          "offset": 510,
+                          "size": 91,
+                          "children": [
+                            {
+                              "type": "mp4a",
+                              "offset": 526,
+                              "size": 75,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "stts",
+                          "offset": 601,
+                          "size": 32,
+                          "children": []
+                        },
+                        {
+                          "type": "stsz",
+                          "offset": 633,
+                          "size": 368,
+                          "children": []
+                        },
+                        {
+                          "type": "stsc",
+                          "offset": 1001,
+                          "size": 28,
+                          "children": []
+                        },
+                        {
+                          "type": "co64",
+                          "offset": 1029,
+                          "size": 24,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "free",
+      "offset": 1053,
+      "size": 2163,
+      "children": []
+    },
+    {
+      "type": "mdat",
+      "offset": 3216,
+      "size": 32339,
+      "children": []
+    }
+  ],
+  "44100_2_silence.mp4": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "size": 24,
+      "children": []
+    },
+    {
+      "type": "moov",
+      "offset": 24,
+      "size": 1029,
+      "children": [
+        {
+          "type": "mvhd",
+          "offset": 32,
+          "size": 108,
+          "children": []
+        },
+        {
+          "type": "meta",
+          "offset": 140,
+          "size": 118,
+          "children": []
+        },
+        {
+          "type": "trak",
+          "offset": 258,
+          "size": 795,
+          "children": [
+            {
+              "type": "tkhd",
+              "offset": 266,
+              "size": 92,
+              "children": []
+            },
+            {
+              "type": "mdia",
+              "offset": 358,
+              "size": 695,
+              "children": [
+                {
+                  "type": "mdhd",
+                  "offset": 366,
+                  "size": 32,
+                  "children": []
+                },
+                {
+                  "type": "hdlr",
+                  "offset": 398,
+                  "size": 44,
+                  "children": []
+                },
+                {
+                  "type": "minf",
+                  "offset": 442,
+                  "size": 611,
+                  "children": [
+                    {
+                      "type": "smhd",
+                      "offset": 450,
+                      "size": 16,
+                      "children": []
+                    },
+                    {
+                      "type": "dinf",
+                      "offset": 466,
+                      "size": 36,
+                      "children": [
+                        {
+                          "type": "dref",
+                          "offset": 474,
+                          "size": 28,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "stbl",
+                      "offset": 502,
+                      "size": 551,
+                      "children": [
+                        {
+                          "type": "stsd",
+                          "offset": 510,
+                          "size": 91,
+                          "children": [
+                            {
+                              "type": "mp4a",
+                              "offset": 526,
+                              "size": 75,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "stts",
+                          "offset": 601,
+                          "size": 32,
+                          "children": []
+                        },
+                        {
+                          "type": "stsz",
+                          "offset": 633,
+                          "size": 368,
+                          "children": []
+                        },
+                        {
+                          "type": "stsc",
+                          "offset": 1001,
+                          "size": 28,
+                          "children": []
+                        },
+                        {
+                          "type": "co64",
+                          "offset": 1029,
+                          "size": 24,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "free",
+      "offset": 1053,
+      "size": 2163,
+      "children": []
+    },
+    {
+      "type": "mdat",
+      "offset": 3216,
+      "size": 32338,
+      "children": []
+    }
+  ]
+}
