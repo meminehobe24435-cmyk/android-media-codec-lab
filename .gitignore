@@ -1,0 +1,10 @@
+.gradle/
+**/build/
+.cxx/
+**/.cxx/
+local.properties
+*.apk
+*.exe
+__pycache__/
+.idea/
+captures/
